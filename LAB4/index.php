@@ -7,7 +7,7 @@ $no = 10;
 $name = 'win';
 ?>
 
-<table>
+<table border="1">
     <thead>
         <tr>
             <th>#</th>
@@ -25,4 +25,9 @@ $name = 'win';
         <tr>
             <td><?php echo $i ?></td>
             <td><?= $name ?></td>
+        </tr>
+        <?php
         }
+        ?>
+    </tbody>
+</table>
