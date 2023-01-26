@@ -1,10 +1,9 @@
 <?php
-echo "HELLO PHP !!";
+echo "hello PHP!!";
 
-phpinfo();
+$no=10;
+$name ='Ben';
 
-$no = 10;
-$name = 'win';
 ?>
 
 <table border="1">
@@ -17,14 +16,14 @@ $name = 'win';
     <tbody>
         <tr>
             <td>1</td>
-            <td>dang</td>
+            <td>Dang</td>
         </tr>
         <?php
-        for ($i = 2; $i < 5; $i++){
+        for($i = 2 ;$i<5;$i++){
         ?>
         <tr>
             <td><?php echo $i ?></td>
-            <td><?= $name ?></td>
+            <td><?=$name ?></td>
         </tr>
         <?php
         }
